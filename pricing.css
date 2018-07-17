@@ -1,25 +1,29 @@
-.text {
-	font-family: 
+.jumbotron {
+	background-image: url('http://www.wallpaperbetter.com/wallpaper/515/57/79/wood-notebook-vintage-whitespace-old-glasses-classic-typewriter-workspace-notepad-color-sudes-vintage-2K-wallpaper.jpg');
+	background-position: 0% 25%;
+	background-size: cover;
+}
+
+#plan {
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .subhead {
-	font-family: ;
-	font-size: ;
-	font-stretch: 50%;
-}
-
-.feat1 {
-	font-family: ;
-	font-weight: ;
-}
-
-.button {
-	font-family: ;
-	font-style: ;
+	font-family: Gill Sans, sans-serif;
+	font-size: 34px;
+	font-variant-caps: small-caps;
+	color: black;
 }
 
 .list {
-	font-family: ;
-	font-size: ;
+	font-family: system-ui;
+	font-size: 20px;
+}
 
+.extra {
+	font-size: 18px;
+	font-family: system-ui;
+	list-style-type: none;
 }
