@@ -1,0 +1,30 @@
+.panel-footer {
+	background: transparent;
+}
+
+p {
+	 text-align: center;
+	 color: black; 
+	 font-family: 'Gaegu', 'Montserrat', 'serif';
+	 font-size: 1.5em;
+}
+
+.jumbotron {
+	background: transparent;
+
+}
+
+.toptext { 
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 8em;
+}
+
+#bottomtext {
+	font-size: 3em;
+	color: red;
+	text-shadow: 3px 3px 5px #000000;
+}
+
+#box {
+	background: white;
+}

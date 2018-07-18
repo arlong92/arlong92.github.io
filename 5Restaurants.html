@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://arlong92.github.io/foodie.css">
+	<link rel="stylesheet" type="text/css" href="foodie.css">
+	<link href="https://fonts.googleapis.com/css?family=Gaegu|Montserrat" rel="stylesheet">
 
 
 </head>
@@ -15,9 +18,9 @@
 
 <div class="container">
 
-	<div class="jumbotron"; style="background-color: white;">
-		<h1 style="font-family: Impact" align="center">My Foodie Five</h1>
-		<h3 class="text-uppercase" style="font-family: Impact" align="center">Here are 5 of my favorite restaurants located in Houston, TX.
+	<div class="jumbotron">
+		<h1 class="toptext" style="font-family: Impact; color: red" align="center">My Foodie Five</h1>
+		<h3 id="bottomtext" style="font-family: Impact" align="center">Here are 5 of my favorite restaurants located in Houston, TX.
 		</h3>
 	</div>
 
@@ -30,7 +33,7 @@
 					<img src="http://www.chachos.com/chachos_logo.gif" height="150px" width="250px" style="display: block; margin: auto">
 				</div>
 				<div class="panel-footer" style="font-size: 20px">
-					<p class="text-center" style="color: red; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'">Chacho's is one of the best Tex-Mex restaurant chains in town. They always serve up large portions and great drinks. Try the shredded chicken quesadillas. </p>
+					<p>Chacho's is one of the best Tex-Mex restaurant chains in town. They always serve up large portions and great drinks. Try the shredded chicken quesadillas. </p>
 				</div>
 			</div>
 		</div>
@@ -42,7 +45,7 @@
 					<img src="https://thebreakfastklub.com/wp-content/uploads/2017/09/tbk_logo-new3.png" height="200px" width="250px" style="display: block; margin: auto">
 				</div>
 				<div class="panel-footer" style="font-size: 20px">
-					<p class="text-center" style="color: red">The Breakfast Klub is best known for their Sunday brunch, where they serve some of the best chicken wings & waffles I've ever had. </p>
+					<p>The Breakfast Klub is best known for their Sunday brunch, where they serve some of the best chicken wings & waffles I've ever had. </p>
 				</div>
 			</div>
 		</div>
@@ -54,7 +57,7 @@
 					<img src="http://www.mikkiscafe.com/wp-content/uploads/2016/12/headerLogo.svg" height="200px" width="300px" style="display: block; margin: auto">
 				</div>
 				<div class="panel-footer" style="font-size: 20px">
-					<p class="text-center" style="color: red">Seconds after you enter Mikki's (once you get past the long line), you'll notice their wall full of celebrity photos. No one leaves Houston without going to get a heaping helping of their delicious soul food. Don't miss their baked chicken and macaroni & cheese. </p>
+					<p>Seconds after you enter Mikki's (once you get past the long line), you'll notice their wall full of celebrity photos.  Don't miss their baked chicken and macaroni & cheese. </p>
 				</div>
 			</div>
 		</div>
@@ -70,7 +73,7 @@
 					<img src="https://pappasitos.com/global/images/header-logo.png" height="200px" width="400px" style="display: block; margin: auto">
 				</div>
 				<div class="panel-footer" style="font-size: 20px">
-					<p class="text-center" style="color: red">Pappasito's is a seafood Tex-Mex fiesta. Their Plato Del Mar is to die for! </p>
+					<p>Pappasito's is a seafood Tex-Mex fiesta. Their Plato Del Mar is to die for! </p>
 				</div>
 			</div>
 		</div>
@@ -83,7 +86,7 @@
 					<img src="https://pappadeaux.com/global/img/header-logo.png" height="200px" width="400px" style="display: block; margin: auto">
 				</div>
 				<div class="panel-footer" style="font-size: 20px">
-					<p class="text-center" style="color: red">Another popular chain a part of the Pappas family of restaurants, Pappadeaux brings a fine dining feel to cajun cuisine. Their Pasta Mardi Gras is my favorite. </p>
+					<p>Another popular chain a part of the Pappas family of restaurants, Pappadeaux brings a fine dining feel to cajun cuisine. Their Pasta Mardi Gras is my favorite. </p>
 				</div>
 			</div>
 		</div>
@@ -91,7 +94,7 @@
 	</div>
 
 	<div class="row">
-		<div class="well">
+		<div class="well" id="box">
 			<p style="font-size: 30px">See the video below of Houston native rapper Bun B visiting some of his favorite restaurants, including The Breakfast Klub! 
 			</p>
 		</div>
@@ -106,7 +109,7 @@
 
 	<br>
 	
-	<div class="well">
+	<div class="well" id="box">
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
