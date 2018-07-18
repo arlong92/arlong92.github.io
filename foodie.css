@@ -15,14 +15,11 @@ p {
 }
 
 .toptext { 
-	font-family: 'Montserrat';
 	text-shadow: 2px 2px 4px #000000;
 	font-size: 8em;
-	color: red;
 }
 
-.bottomtext {
-	font-family: 'Montserrat';
+#bottomtext {
 	font-size: 3em;
 	color: red;
 	text-shadow: 3px 3px 5px #000000;
