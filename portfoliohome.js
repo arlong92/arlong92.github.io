@@ -4,7 +4,7 @@ $(function() {
 });
 
 $('.col-md-6').hover(function() {
-	$(this).resizable();
+	$(this).resizable()
 });
 
 $('#reslink').click(function() {
