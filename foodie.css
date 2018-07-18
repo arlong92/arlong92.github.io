@@ -20,7 +20,7 @@ p {
 	font-size: 8em;
 }
 
-#bottomtext {
+.bottomtext {
 	font-family: 'Montserrat';
 	font-size: 3em;
 	color: red;
