@@ -1,4 +1,4 @@
-$('.face').hover(function() {
+$('#face').hover(function() {
 	$(this).fadeOut();
 })
 
