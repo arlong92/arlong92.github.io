@@ -13,4 +13,8 @@ $('#reslink').click(function() {
 
 $('#pricelink').click(function() {
 	alert('Thank you for viewing my project. Click the back button to return to my site.')
-})
+});
+
+$('.picture').hover(function(){
+	$(this).toggle('bounce', {times: 3}, 'slow');
+});
