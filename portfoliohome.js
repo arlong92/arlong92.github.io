@@ -16,5 +16,5 @@ $('#pricelink').click(function() {
 });
 
 $('.picture').hover(function() {
-	$(this).toggle('bounce', {times: 3}, 'slow');
+	$(this).animate('bounce', {times: 3}, 'slow');
 });
