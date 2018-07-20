@@ -15,6 +15,6 @@ $('#pricelink').click(function() {
 	alert('Thank you for viewing my project. Click the back button to return to my site.');
 });
 
-$('img').hover(function() {
+$('.picture').hover(function() {
 	$(this).animate('bounce', {times: 2}, 'slow');
 });
