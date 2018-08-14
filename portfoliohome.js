@@ -19,6 +19,6 @@ $('.picture').hover(function() {
 	$(this).animate('bounce', {times: 2}, 'slow');
 });
 
-$('#marvel').hover(function () {
+$('#marvel').onclick(function () {
 	$(this).css('height', 648);
 });
