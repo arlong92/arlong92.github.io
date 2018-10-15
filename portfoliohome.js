@@ -18,7 +18,3 @@ $('#pricelink').click(function() {
 $('.picture').hover(function() {
 	$(this).animate('bounce', {times: 2}, 'slow');
 });
-
-$('#marvel').onclick(function () {
-	$(this).css('height', 648);
-});
