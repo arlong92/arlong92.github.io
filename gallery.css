@@ -1,0 +1,35 @@
+body {
+	padding-top: 70px;
+	background: #bec6e6;
+}
+
+.row {
+	padding-bottom: 70px;
+}
+
+.jumbotron {
+	color: black;
+	background: transparent;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+footer {
+	background: black;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+img:hover {
+	transform: scale(1.5);
+}
