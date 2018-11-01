@@ -1,5 +1,5 @@
 .jumbotron {
-	background-image: url('http://www.wallpaperbetter.com/wallpaper/515/57/79/wood-notebook-vintage-whitespace-old-glasses-classic-typewriter-workspace-notepad-color-sudes-vintage-2K-wallpaper.jpg');
+	background: url('http://www.wallpaperbetter.com/wallpaper/515/57/79/wood-notebook-vintage-whitespace-old-glasses-classic-typewriter-workspace-notepad-color-sudes-vintage-2K-wallpaper.jpg');
 	background-position: 0% 25%;
 	background-size: cover;
 }
@@ -8,6 +8,10 @@
 	text-align: center;
 	color: #FFFFFF;
 	text-shadow: 2px 2px 4px #000000;
+}
+
+h4 {
+	font-family: sans-serif;
 }
 
 .subhead {
