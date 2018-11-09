@@ -1,0 +1,17 @@
+body {
+	background-image: url("https://www.clipartsfree.net/vector/large/22736-clipboard-background-vector.png");
+	background-position: top-center;
+	background-size: cover;
+}
+
+h1, h3, h6 {
+	text-align: center;
+}
+
+.jumbotron h1 {
+	font-size: 4em;
+	text-shadow: 2px 2px 4px grey;
+	color: black;
+	text-transform: uppercase;
+	padding-top: 200px;
+}
